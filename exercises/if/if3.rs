@@ -44,7 +44,8 @@ mod tests {
 
     #[test]
     fn crab_lives_on_beach() {
-        assert_eq!(animal_habitat("crab"), "Beach")
+        assert_eq!(animal_habitat("crab"), "Beach");
+        println!("All tests passed!")
     }
 
     #[test]
