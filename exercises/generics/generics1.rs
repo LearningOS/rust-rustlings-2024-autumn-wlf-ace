@@ -6,9 +6,9 @@
 // Execute `rustlings hint generics1` or use the `hint` watch subcommand for a
 // hint.
 
-struct ShoppingList<T> {
-    items: Vec<T>,
-}
+// struct ShoppingList<T> {
+//     items: Vec<T>,
+// }
 fn main() {
     let mut shopping_list: Vec<&str> = Vec::new();
     shopping_list.push("milk");
