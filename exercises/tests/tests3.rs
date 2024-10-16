@@ -19,7 +19,7 @@ mod tests {
 
     #[test]
     fn is_true_when_even() {
-        assert!(!is_even(9));  ///use `!` to invert the result
+        assert!(!is_even(9));  //use `!` to invert the result
     }
 
     #[test]
